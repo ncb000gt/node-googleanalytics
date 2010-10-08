@@ -9,22 +9,26 @@ The library maintains tracking of the token so that you don't have to and will p
 Usage
 ============
 
+`
 var ga = require('ga')
 ,sys = require('sys');
 
 var GA = new ga.GA();
-GA.login();
-var options = {
-    	    'ids': 'ga:<profileid>',
-	    'start-date': '2010-09-01',
-	    'end-date': '2010-09-30',
-	    'dimensions': 'ga:pagePath',
-	    'metrics': 'ga:pageviews',
-	    'sort': '-ga:pagePath'
-};
-GA.get(options,);
-sys.debug(JSON.stringify(entries));
+GA.login(function(err, token) {
+           var options = {
+    	     'ids': 'ga:<profileid>',
+	     'start-date': '2010-09-01',
+	     'end-date': '2010-09-30',
+	     'dimensions': 'ga:pagePath',
+	     'metrics': 'ga:pageviews',
+	     'sort': '-ga:pagePath'
+           };
+           GA.get(options, function(err, entries) {
+                             sys.debug(JSON.stringify(entries));
+                           });
+         });
 
+`
 
 Rudamentary API
 ============
