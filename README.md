@@ -38,6 +38,7 @@ Event API
 ============
 
 * token(err, token)
+* entries(err, entries)
 
 
 License
