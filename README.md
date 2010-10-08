@@ -10,11 +10,11 @@ Usage
 ============
 
 `
-var ga = require('ga')
-,sys = require('sys');
+  var ga = require('ga')
+  ,sys = require('sys');
 
-var GA = new ga.GA();
-GA.login(function(err, token) {
+  var GA = new ga.GA();
+  GA.login(function(err, token) {
            var options = {
     	     'ids': 'ga:<profileid>',
 	     'start-date': '2010-09-01',
