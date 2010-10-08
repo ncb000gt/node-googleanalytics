@@ -1,0 +1,21 @@
+{
+  "name": "googleanalytics",
+  "main": "./lib/ga"
+  "description": "Google Analytics library.",
+  "version": "0.1.1",
+  "author": "Nick Campbell (http://github.com/ncb000gt)",
+  "engines": { "node": ">= 0.1.100" },
+  "repository": {
+        "type": "git",
+        "url": "http://github.com/ncb000gt/node-googleanalytics.git"
+   },
+   "licenses": [
+     {
+        "type": "MIT"
+     }
+   ],
+   "dependencies": {
+     "soupselect": ">=0.1.0",
+     "htmlparser": ">=1.6.2"
+   }
+}
