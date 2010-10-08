@@ -9,7 +9,6 @@ The library maintains tracking of the token so that you don't have to and will p
 Usage
 ============
 
-`
   var ga = require('ga')
   ,sys = require('sys');
 
@@ -28,7 +27,6 @@ Usage
                            });
          });
 
-`
 
 Rudamentary API
 ============
