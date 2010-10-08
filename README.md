@@ -9,11 +9,11 @@ The library maintains tracking of the token so that you don't have to and will p
 Usage
 ============
 
-  var ga = require('ga')
-  ,sys = require('sys');
-
-  var GA = new ga.GA();
-  GA.login(function(err, token) {
+    var ga = require('ga') 
+    ,sys = require('sys'); 
+    
+    var GA = new ga.GA();
+    GA.login(function(err, token) {
            var options = {
     	     'ids': 'ga:<profileid>',
 	     'start-date': '2010-09-01',
