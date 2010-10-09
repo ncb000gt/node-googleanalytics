@@ -9,7 +9,7 @@ The library maintains tracking of the token so that you don't have to and will p
 Usage
 ============
 
-    var ga = require('ga') 
+    var ga = require('googleanalytics') 
     ,sys = require('sys'); 
     
     var GA = new ga.GA();
