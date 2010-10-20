@@ -34,11 +34,24 @@ Rudamentary API
 * login([callback]) - The callback is optional. However, if it is given, it is added to the `token` event.
 * get(options, callback)
 
+
 Event API
 ============
 
 * token(err, token)
 * entries(err, entries)
+
+
+Entry API
+============
+
+* metrics[]
+* dimensions[]
+
+Each array contains objects. These objects contain the following:
+
+* name - The name of the metric or dimension requested
+* value - The value associated. If the value is a Number, it is parsed for you. Otherwise, it will be a string.
 
 
 License
