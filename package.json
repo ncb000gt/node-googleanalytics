@@ -4,6 +4,9 @@
   "description": "Google Analytics library.",
   "version": "0.1.1",
   "author": "Nick Campbell (http://github.com/ncb000gt)",
+  "contributors": [ 
+    { "name": "Brian Zeligson (http://github.com/beezee)", "email": "brian.zeligson@gmail.com" },
+    ],
   "engines": { "node": ">= 0.4.0" },
   "repository": {
         "type": "git",
@@ -15,7 +18,7 @@
      }
    ],
    "dependencies": {
-     "soupselect": ">=0.1.0",
-     "htmlparser": ">=1.6.2"
+     "xmldom" : ""
+     ,"jquery" : ""
    }
 }

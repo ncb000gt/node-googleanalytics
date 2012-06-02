@@ -5,7 +5,7 @@ Pull data from Google Analytics for use in projects.
 
 The library maintains tracking of the token so that you don't have to and will push the token around with your requests. Should you require a different token, just create a new GA instance. However, this is asynchronous through eventing so if you do want the token you can latch onto the event.
 
-* Updated for NodeJS 0.4.x *
+* Updated for NodeJS 0.6.x *
 
 
 Usage
