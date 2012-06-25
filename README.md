@@ -12,7 +12,7 @@ Usage
 ============
 
     var ga = require('googleanalytics') 
-    ,sys = require('sys'); 
+    ,util = require('util'); 
     
     var GA = new ga.GA();
     GA.login(function(err, token) {
@@ -25,7 +25,7 @@ Usage
 	     'sort': '-ga:pagePath'
            };
            GA.get(options, function(err, entries) {
-                             sys.debug(JSON.stringify(entries));
+                             util.debug(JSON.stringify(entries));
                            });
          });
 
