@@ -1,2 +1,2 @@
-test.js
-*.swp
+*.sw[a-z]
+node_modules
