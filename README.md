@@ -56,7 +56,16 @@ Each array contains objects. These objects contain the following:
 * value - The value associated. If the value is a Number, it is parsed for you. Otherwise, it will be a string.
 
 
+Contributors
+===========
+
+* [Brian Zeligson][beezee] - Updates for a more recent version of node. Also makes use of better selectors.
+
+
 License
 ============
 
 see license file
+
+
+[beezee]:https://github.com/beezee
