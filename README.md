@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ncb000gt/node-googleanalytics.png)](http://travis-ci.org/ncb000gt/node-googleanalytics)
 Google Analytics
 ============
 
