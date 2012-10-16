@@ -18,7 +18,5 @@
      }
    ],
    "dependencies": {
-     "xmldom" : ""
-     ,"jquery" : ""
    }
 }
