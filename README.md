@@ -3,7 +3,8 @@ Google Analytics
 
 Pull data from Google Analytics for use in projects.
 
-The library maintains tracking of the token so that you don't have to and will push the token around with your requests. Should you require a different token, just create a new GA instance. However, this is asynchronous through eventing so if you do want the token you can latch onto the event.
+The library maintains tracking of the token so that you don't have to and will push the token around with your requests.
+Should you require a different token, just create a new GA instance. However, this is asynchronous through eventing so if you do want the token you can latch onto the event.
 
 * Updated for NodeJS 0.6.x *
 
@@ -11,23 +12,52 @@ The library maintains tracking of the token so that you don't have to and will p
 Usage
 ============
 
-    var ga = require('googleanalytics') 
-    ,util = require('util'); 
+With a user and password:
+
+    var GA = require('googleanalytics'),
+        util = require('util'),
+        config = {
+            "user": "myusername",
+            "password": "mypassword"
+        },
+        ga = new GA.GA(config);
+
+    ga.login(function(err, token) {
+        var options = {
+            'ids': 'ga:<profileid>',
+            'start-date': '2010-09-01',
+            'end-date': '2010-09-30',
+            'dimensions': 'ga:pagePath',
+            'metrics': 'ga:pageviews',
+            'sort': '-ga:pagePath'
+        };
+
+        GA.get(options, function(err, entries) {
+           util.debug(JSON.stringify(entries));
+        });
+    });
+
+If you have already gotten permission from a user, you can simply use the oAuth refresh token you have:
+
+    var GA = require('googleanalytics'),
+        util = require('util'),
+        config = {
+            "token": "Auth=XXXXXXXXXXX"
+        },
+        ga = new GA.GA(config);
     
-    var GA = new ga.GA();
-    GA.login(function(err, token) {
-           var options = {
-    	     'ids': 'ga:<profileid>',
-	     'start-date': '2010-09-01',
-	     'end-date': '2010-09-30',
-	     'dimensions': 'ga:pagePath',
-	     'metrics': 'ga:pageviews',
-	     'sort': '-ga:pagePath'
-           };
-           GA.get(options, function(err, entries) {
-                             util.debug(JSON.stringify(entries));
-                           });
-         });
+    var options = {
+        'ids': 'ga:<profileid>',
+        'start-date': '2010-09-01',
+        'end-date': '2010-09-30',
+        'dimensions': 'ga:pagePath',
+        'metrics': 'ga:pageviews',
+        'sort': '-ga:pagePath'
+    };
+
+    GA.get(options, function(err, entries) {
+        util.debug(JSON.stringify(entries));
+    });
 
 
 Rudamentary API
