@@ -45,7 +45,6 @@ If you have already gotten permission from a user, you can simply use the oAuth 
             "token": "Auth=XXXXXXXXXXX"
         },
         ga = new GA.GA(config);
-
     
     var options = {
         'ids': 'ga:<profileid>',
