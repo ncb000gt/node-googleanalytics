@@ -23,19 +23,19 @@ With a user and password:
         ga = new GA.GA(config);
 
     ga.login(function(err, token) {
-       var options = {
-           'ids': 'ga:<profileid>',
-           'start-date': '2010-09-01',
-           'end-date': '2010-09-30',
-           'dimensions': 'ga:pagePath',
-           'metrics': 'ga:pageviews',
-           'sort': '-ga:pagePath'
-       };
+        var options = {
+            'ids': 'ga:<profileid>',
+            'start-date': '2010-09-01',
+            'end-date': '2010-09-30',
+            'dimensions': 'ga:pagePath',
+            'metrics': 'ga:pageviews',
+            'sort': '-ga:pagePath'
+        };
 
-       GA.get(options, function(err, entries) {
+        GA.get(options, function(err, entries) {
            util.debug(JSON.stringify(entries));
-       });
-   });
+        });
+    });
 
 If you have already gotten permission from a user, you can simply use the oAuth refresh token you have:
 
@@ -46,18 +46,19 @@ If you have already gotten permission from a user, you can simply use the oAuth 
         },
         ga = new GA.GA(config);
 
-   var options = {
-       'ids': 'ga:<profileid>',
-       'start-date': '2010-09-01',
-       'end-date': '2010-09-30',
-       'dimensions': 'ga:pagePath',
-       'metrics': 'ga:pageviews',
-       'sort': '-ga:pagePath'
-   };
+    
+    var options = {
+        'ids': 'ga:<profileid>',
+        'start-date': '2010-09-01',
+        'end-date': '2010-09-30',
+        'dimensions': 'ga:pagePath',
+        'metrics': 'ga:pageviews',
+        'sort': '-ga:pagePath'
+    };
 
-   GA.get(options, function(err, entries) {
-       util.debug(JSON.stringify(entries));
-   });
+    GA.get(options, function(err, entries) {
+        util.debug(JSON.stringify(entries));
+    });
 
 
 Rudamentary API
