@@ -18,6 +18,12 @@ GA.login(function(err, token) {
   'sort': '-ga:pagePath'
   };
   GA.get(options, function(err, entries) {
-    console.log(entries);
+    if (!err) {
+      entries.forEach(function(entry) {
+        console.log(entry);
+      });
+    } else {
+      console.log(err);
+    }
   });
 });
