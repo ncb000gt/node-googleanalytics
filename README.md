@@ -37,12 +37,12 @@ With a user and password:
         });
     });
 
-If you have already gotten permission from a user, you can simply use the oAuth refresh token you have:
+If you have already gotten permission from a user, you can simply use the oAuth access token you have:
 
     var GA = require('googleanalytics'),
         util = require('util'),
         config = {
-            "token": "Auth=XXXXXXXXXXX"
+            "token": "XXXXXXXXXXXX"
         },
         ga = new GA.GA(config);
     
