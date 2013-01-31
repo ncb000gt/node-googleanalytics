@@ -59,7 +59,7 @@ If you have already gotten permission from a user, you can simply use the oAuth 
         util.debug(JSON.stringify(entries));
     });
 
-* You can specify the type of token by setting 'tokenType', default is 'Bearer'.
+You can specify the type of token by setting 'tokenType', default is 'Bearer'.
 
 See [node-gapitoken][gapi] for easy services account Server to Server authorization flow.
 
@@ -94,7 +94,7 @@ Contributors
 
 * [Brian Zeligson][beezee] - Updates for a more recent version of node. Also makes use of better selectors.
 
-* [Gal Ben-Haim][bsphere]
+* [Gal Ben-Haim][bsphere] - Bug fixes for access token flow.
 
 License
 ============
