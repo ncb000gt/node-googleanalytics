@@ -61,7 +61,7 @@ If you have already gotten permission from a user, you can simply use the oAuth 
 
 You can specify the type of token by setting 'tokenType', default is 'Bearer'.
 
-See [node-gapitoken][gapi] for easy services account Server to Server authorization flow.
+See [node-gapitoken][gapi] for easy service account Server to Server authorization flow.
 
 Rudamentary API
 ============
