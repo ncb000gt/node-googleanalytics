@@ -2,11 +2,12 @@
   "name": "googleanalytics",
   "main": "./lib/ga",
   "description": "Google Analytics library.",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "author": "Nick Campbell (http://github.com/ncb000gt)",
   "contributors": [ 
     { "name": "Brian Zeligson (http://github.com/beezee)", "email": "brian.zeligson@gmail.com" },
-    { "name": "Mike Schierberl (http://github.com/mschierberl)", "email": "mike@schierberl.com" }
+    { "name": "Mike Schierberl (http://github.com/mschierberl)", "email": "mike@schierberl.com" },
+    { "name": "Gal Ben-Haim (http://github.com/bsphere", "email": "gbenhaim@gmail.com"}
     ],
   "engines": { "node": ">= 0.4.0" },
   "repository": {
