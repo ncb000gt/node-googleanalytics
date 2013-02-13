@@ -32,7 +32,7 @@ With a user and password:
             'sort': '-ga:pagePath'
         };
 
-        GA.get(options, function(err, entries) {
+        ga.get(options, function(err, entries) {
            util.debug(JSON.stringify(entries));
         });
     });
@@ -55,7 +55,7 @@ If you have already gotten permission from a user, you can simply use the oAuth 
         'sort': '-ga:pagePath'
     };
 
-    GA.get(options, function(err, entries) {
+    ga.get(options, function(err, entries) {
         util.debug(JSON.stringify(entries));
     });
 
