@@ -95,7 +95,7 @@ Contributors
 * [Brian Zeligson][beezee] - Updates for a more recent version of node. Also makes use of better selectors.
 * [Mike Schierberl][mschierberl]
 * [Gal Ben-Haim][bsphere] - Bug fixes for access token flow.
-* [Patrick Nolan][patnolan] - Bug fixes for access token flow.
+* [Patrick Nolan][patnolan] - Bug fixes for parsed_data not containing a rows field.
 
 License
 ============
