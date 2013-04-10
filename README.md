@@ -95,6 +95,7 @@ Contributors
 * [Brian Zeligson][beezee] - Updates for a more recent version of node. Also makes use of better selectors.
 * [Mike Schierberl][mschierberl]
 * [Gal Ben-Haim][bsphere] - Bug fixes for access token flow.
+* [Patrick Nolan][patnolan] - Bug fixes for access token flow.
 
 License
 ============
@@ -105,5 +106,6 @@ see license file
 [beezee]:https://github.com/beezee
 [mschierberl]:https://github.com/mschierberl
 [bsphere]:https://github.com/bsphere
+[patnolan]:https://github.com/patnolanireland
 
 [gapi]:https://github.com/bsphere/node-gapitoken
