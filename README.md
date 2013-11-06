@@ -96,6 +96,7 @@ Contributors
 * [Mike Schierberl][mschierberl]
 * [Gal Ben-Haim][bsphere] - Bug fixes for access token flow.
 * [Patrick Nolan][patnolan] - Bug fixes for parsed_data not containing a rows field.
+* [Ryan Smith][incisive] - Fixed GH-28.
 
 License
 ============
@@ -107,5 +108,6 @@ see license file
 [mschierberl]:https://github.com/mschierberl
 [bsphere]:https://github.com/bsphere
 [patnolan]:https://github.com/patnolanireland
+[incisive]:https://github.com/Incisive
 
 [gapi]:https://github.com/bsphere/node-gapitoken
