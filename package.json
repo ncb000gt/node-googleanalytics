@@ -10,7 +10,7 @@
     { "name": "Gal Ben-Haim (http://github.com/bsphere", "email": "gbenhaim@gmail.com"},
     { "name": "Patrick Nolan (http://github.com/patnolanireland", "email": "patnolanireland@gmail.com"},
 		{ "name": "Ryan Smith (https://github.com/Incisive)", "email": "Incisiv3@gmail.com" },
-    { "name": "Aran Sadja (https://github.com/asadja)", "email": <asadja@gmail.com>" }
+    { "name": "Aran Sadja (https://github.com/asadja)", "email": "<asadja@gmail.com>" }
     ],
   "engines": { "node": ">= 0.4.0" },
   "repository": {
