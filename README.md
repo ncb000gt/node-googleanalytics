@@ -63,7 +63,7 @@ You can specify the type of token by setting 'tokenType', default is 'Bearer'.
 
 See [node-gapitoken][gapi] for easy service account Server to Server authorization flow.
 
-Rudamentary API
+API
 ============
 
 * login([callback]) - The callback is optional. However, if it is given, it is added to the `token` event.
