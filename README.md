@@ -1,6 +1,10 @@
 Google Analytics
 ============
 
+    UNMAINTAINED: In case it wasn't clear from the lack of activity, I don't have the time to work on this project anymore.
+    I'd be happy to transfer ownership to someone else or add someone as a contributor to the project. Please reach out to me
+    and let me know!
+
 Pull data from Google Analytics for use in projects.
 
 The library maintains tracking of the token so that you don't have to and will push the token around with your requests.
