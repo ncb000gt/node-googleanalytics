@@ -5,6 +5,11 @@ Google Analytics
     I'd be happy to transfer ownership to someone else or add someone as a contributor to the project. Please reach out to me
     and let me know!
 
+
+    This project doesn't work and hasn't worked for some time due to google
+		removing the use based configuration. See more at https://github.com/ncb000gt/node-googleanalytics/issues/36#issuecomment-383822453
+
+
 Pull data from Google Analytics for use in projects.
 
 The library maintains tracking of the token so that you don't have to and will push the token around with your requests.
