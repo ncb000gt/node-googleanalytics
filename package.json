@@ -2,7 +2,7 @@
   "name": "googleanalytics",
   "main": "./lib/ga",
   "description": "Google Analytics library.",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "author": "Nick Campbell (http://github.com/ncb000gt)",
   "contributors": [ 
     { "name": "Brian Zeligson (http://github.com/beezee)", "email": "brian.zeligson@gmail.com" },
