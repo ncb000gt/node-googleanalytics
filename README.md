@@ -6,8 +6,8 @@ Google Analytics
     and let me know!
 
 
-    This project doesn't work and hasn't worked for some time due to google
-		removing the use based configuration. See more at https://github.com/ncb000gt/node-googleanalytics/issues/36#issuecomment-383822453
+    This project doesn't work and hasn't worked for some time due to google removing the use based configuration.
+		See more at https://github.com/ncb000gt/node-googleanalytics/issues/36#issuecomment-383822453
 
 
 Pull data from Google Analytics for use in projects.
